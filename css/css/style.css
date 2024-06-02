@@ -5,21 +5,18 @@ html {
 .container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 800px;
+  width: 200px;
   height: 800px;
   outline: 6px solid #000;
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1fr 8fr;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
   grid-template-rows: 25% 25% 25% auto;
-  grid-template-areas: "b2 b3 b3 b3 b3" "b2 b3 b3 b3 b3" "b2 b3 b3 b3 b3" "b1 b1 b1 b1 b4";
+  grid-template-areas: "b1 b1 b1 b1" "b2 b3 b3 b3" "b2 b3 b3 b3" "b2 b3 b3 b3";
   font-size: 2rem;
   font-weight: 600;
-  grid-gap: 1rem;
+  grid-gap: 0.5%;
 }
 
-.item {
-  outline: 0.25rem solid rgb(50, 50, 255);
-}
 .item-a {
   grid-area: b1;
   background: #fa0;
@@ -34,11 +31,10 @@ html {
 }
 .item-d {
   grid-area: b4;
-  background: #a00;
+  background: rgb(61, 5, 89);
 }
 
 .content {
-  margin-bottom: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: 10vh;
@@ -64,24 +60,5 @@ html {
 }
 .box-c {
   grid-area: a3;
-  background: #aaf;
-}
-
-.inner {
-  width: 800px;
-  height: 800px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr 2fr;
-  grid-template-rows: 25% 25% 30% auto 20%;
-  outline: 2px solid red;
-}
-
-.list-a {
-  background: #ddd;
-}
-.list-b {
-  background: #eee;
-}
-.list-c {
   background: #aaf;
 }/*# sourceMappingURL=style.css.map */
