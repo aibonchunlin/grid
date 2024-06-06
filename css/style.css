@@ -77,17 +77,24 @@ html {
 }
 
 .list-a {
-  grid-column: 3/4;
-  grid-row: 4/6;
-  background: #ddd;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: #633ba0;
 }
 .list-b {
-  grid-column: 1/4;
-  grid-row: 2/5;
-  background: #eee;
+  grid-column: 3/4;
+  grid-row: 4/6;
+  background: #b85151;
 }
 .list-c {
+  grid-column: 1/4;
+  grid-row: 2/5;
+  background: #74edc3;
+}
+.list-d {
   grid-column: 2/-1;
   grid-row: 1/4;
-  background: #aaf;
+  background: rgb(128, 128, 201);
 }/*# sourceMappingURL=style.css.map */
