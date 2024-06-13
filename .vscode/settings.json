@@ -1,3 +1,43 @@
+
 {
+
+    "editor.fontFamily": "'Fira Code', Consolas, 'Microsoft Yahei'",
+    "liveSassCompile.settings.formats": [
+    {
+    "extensionName": ".css",
+    "format": "expanded",
+    "savePath": "~/css"
+    },
+    {
+    "extensionName": ".min.css",
+    "format": "compressed",
+    "savePath": "~/css"
+    }
+    ],
+    "liveSassCompile.settings.excludeList": [
+    
+    "/node_modules/",
+    ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": [
+
+
+
+
+    "> 1%",
+    "last 2 versions"
+    ],
+    "files.autoSave": "onFocusChange",
+    "settingsSync.ignoredExtensions": [
+
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 16,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.port": 5501
-}
+    }
