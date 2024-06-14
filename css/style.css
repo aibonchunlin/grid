@@ -94,6 +94,9 @@ html {
   outline: 2px solid red;
 }
 
+.list {
+  font-size: 2rem;
+}
 .list-a {
   grid-column-start: 2;
   grid-column-end: 5;
