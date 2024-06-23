@@ -123,6 +123,7 @@ html {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr 2fr);
         //如果有定義出colums跟row的數值, 那就會跟flex一樣的概念
+        //沒有定義出的話就會跟flex相反
         // grid-auto-flow: column;
         // grid-auto-flow: row;
         outline: 2px solid red;
